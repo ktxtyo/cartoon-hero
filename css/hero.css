@@ -1,0 +1,26 @@
+header {
+	
+	background-color: #7a0007;
+	padding: 40px;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 90px;
+	color: white;
+}
+
+header img {
+	border-radius: 150px;
+	width: 300px
+}
+/*<header>
+	
+	<title>Stylish</title>
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+	
+</header>*/
+
+
+
