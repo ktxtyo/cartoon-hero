@@ -15,23 +15,70 @@ header {
 h1 {
 	font-size: 90px;
 	color: white;
+	text-shadow: 0 10px 20px black;
 }
 
 header img {
 	border-radius: 170px;
 	width: 300px;
 	border: 15px solid #0611a5;
+	box-shadow: 0 15px 20px black;
 }
 
 .content {
 
 	max-width: 600px;
 	margin: 0 auto;
+	padding: 0 20px;
 
 }
 
 img.big-image {
 
 	max-width: 100%;
+
+}
+
+p.caption {
+
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+
+	color: darkred;
+	
+}
+
+footer {
+
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: lightgrey;
+}
+
+footer ul {
+
+	text-align: center;
+}
+
+footer ul li {
+
+	display: inline-block;
+	margin: 0 5px;
 
 }
