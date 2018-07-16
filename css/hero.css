@@ -1,6 +1,12 @@
+html, body {
+
+	font-family: arial, sans-serif;
+	margin: 0;
+}
+
 header {
 	
-	background-color: #7a0007;
+	background-color: #a80000;
 	padding: 40px;
 	text-align: center;
 
@@ -12,15 +18,20 @@ h1 {
 }
 
 header img {
-	border-radius: 150px;
-	width: 300px
+	border-radius: 170px;
+	width: 300px;
+	border: 15px solid #0611a5;
 }
-/*<header>
-	
-	<title>Stylish</title>
-	<link rel="stylesheet" type="text/css" href="css/test.css">
-	
-</header>*/
 
+.content {
 
+	max-width: 600px;
+	margin: 0 auto;
 
+}
+
+img.big-image {
+
+	max-width: 100%;
+
+}
